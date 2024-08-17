@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Narahs</title>
+    <link rel="stylesheet" href="shop.css">
+    <link href='https://fonts.googleapis.com/css?family=Abhaya Libre' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+    <section class="header">
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="Shop.html">Shop</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>
+        <div id="shop">
+            <h1>#Shop Now With Us</h1>
+
+        </div>
+
+    </section>
+
+    <section class="prodetails">
+        <div class="flex">
+            <div class="single">
+                <img src="shopdetail/shop141.png" alt="" id="main" width="100%">
+            </div>
+            <div class="many">
+                <div class="small-img">
+                    <img src="shopdetail/shop141.png" alt="" class="small" width="100%">
+                </div>
+                <div class="small-img">
+                    <img src="shopdetail/shop142.png" alt="" class="small" width="100%">
+                </div>
+                <div class="small-img">
+                    <img src="shopdetail/shop143.png" alt="" class="small" width="100%">
+                </div>
+
+            </div>
+        </div>
+        <div class="det">
+            <h2>WOMEN PLEATED TROUSERS</h2>
+            <h5>&#8377;800</h5>
+            <select id="size-select">
+                <option>Select Size</option>
+                <option>XS</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+            </select>
+            <input type="number" value="1" id="quantity" min="1">
+            <button class="normal" onclick="addToCart('women-pleated-trousers')">Add To Cart</button>
+            <h2>Product Detail</h2>
+            <span>Beige woven trousers Regular fit Mid-rise solid Pleated design plain 4 pockets trousers.</span>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <div class="col1">
+            <h4 class="h">Contact</h4>
+            <p><b>Address:</b> 11,Arumbakkam,Chennai-106</p>
+            <p><b>Phone:</b> +91 9848593821</p>
+            <p><b>Hours:</b> 9Am to 6Pm, Mon to Fri</p>
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <link rel="stylesheet"
+                    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+                <div class="center">
+                    <div id="social-test">
+                        <ul class="social">
+                            <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col2">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms And Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col3">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">view Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col-install">
+            <h4>Install App</h4>
+            <p>From App Store or Google App</p>
+            <div class="ins">
+                <img src="payment/app.jpg" alt="">
+                <img src="payment/play.jpg" alt="">
+            </div>
+            <p>Secured Payments Gateways</p>
+            <img src="payment/pay.png" alt="">
+        </div>
+    </footer>
+    <p id="end">&copy 2024 www.narahs.com.All rights reserved</p>
+
+
+    <script src="cart.js"></script>
+</body>
+
+</html>
